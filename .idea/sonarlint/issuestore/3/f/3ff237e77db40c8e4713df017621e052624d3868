@@ -1,0 +1,6 @@
+
+|python:S2737$"XAdd logic to this except clause or eliminate it and rethrow the exception automatically.(ÏõîËûÿÿÿÿ8æÁ•ÇÍ1
+wpython:S117}"TRename this parameter "fileName" to match the regular expression ^[_a-z][a-z0-9_]*$.(•ÈÿÀüÿÿÿÿ8æÁ•ÇÍ1
+upython:S1542}"QRename function "decodeImage" to match the regular expression ^[a-z_][a-z0-9_]*$.(•ÈÿÀüÿÿÿÿ8çÁ•ÇÍ1
+{python:S117„"\Rename this parameter "croppedImagePath" to match the regular expression ^[_a-z][a-z0-9_]*$.(”ëŒï8çÁ•ÇÍ1
+{python:S1542„"[Rename function "encodeImageIntoBase64" to match the regular expression ^[a-z_][a-z0-9_]*$.(”ëŒï8çÁ•ÇÍ1
