@@ -9,7 +9,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
-
+from box import Box
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
@@ -122,7 +122,7 @@ def get_size(path: Path) -> str:
     return f"~ {size_in_kb} KB"
 
 
-def decodeImage(imgstring, fileName):
+def  decodeImage(imgstring, fileName):
     imgdata = base64.b64decode(imgstring)
     with open(fileName, 'wb') as f:
         f.write(imgdata)
